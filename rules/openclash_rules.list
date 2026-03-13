@@ -1,43 +1,66 @@
-[custom]
+# MapleStory / Nexon
+DOMAIN-KEYWORD,maplestory
+DOMAIN-SUFFIX,nexon.com
+DOMAIN-SUFFIX,nexon.net
 
-; MapleStory 充值
-ruleset=🎮 游戏平台,[]DOMAIN-KEYWORD,maplestory
-ruleset=🎮 游戏平台,[]DOMAIN-SUFFIX,nexon.com
+# YouTube
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,youtubei.googleapis.com
 
-; YouTube
-ruleset=📹 YouTube,[]DOMAIN-SUFFIX,youtube.com
-ruleset=📹 YouTube,[]DOMAIN-SUFFIX,googlevideo.com
-ruleset=📹 YouTube,[]DOMAIN-SUFFIX,ytimg.com
+# Google
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googleusercontent.com
 
-; Google
-ruleset=🍀 Google,[]DOMAIN-SUFFIX,gstatic.com
-ruleset=🍀 Google,[]DOMAIN-SUFFIX,googleapis.com
-ruleset=🍀 Google,[]DOMAIN-SUFFIX,googleusercontent.com
+# ChatGPT / OpenAI
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
 
-; ChatGPT
-ruleset=🤖 AI,[]DOMAIN-SUFFIX,openai.com
-ruleset=🤖 AI,[]DOMAIN-SUFFIX,chatgpt.com
-ruleset=🤖 AI,[]DOMAIN-SUFFIX,oaistatic.com
+# GitHub
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,githubassets.com
 
-; 国内 CDN（WiFi 不刷图修复）
-ruleset=🎯 全球直连,[]DOMAIN-SUFFIX,alicdn.com
-ruleset=🎯 全球直连,[]DOMAIN-SUFFIX,taobaocdn.com
-ruleset=🎯 全球直连,[]DOMAIN-SUFFIX,bdimg.com
-ruleset=🎯 全球直连,[]DOMAIN-SUFFIX,bdstatic.com
-ruleset=🎯 全球直连,[]DOMAIN-SUFFIX,zhimg.com
-ruleset=🎯 全球直连,[]DOMAIN-SUFFIX,biliimg.com
-ruleset=🎯 全球直连,[]DOMAIN-SUFFIX,qpic.cn
-ruleset=🎯 全球直连,[]DOMAIN-SUFFIX,gtimg.com
-ruleset=🎯 全球直连,[]DOMAIN-SUFFIX,pstatp.com
+# Telegram
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,telegram.me
 
-; 原始规则
-ruleset=🤖 AI,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AI.list
-ruleset=📹 YouTube,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
-ruleset=🍀 Google,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.list
-ruleset=🎥 Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
-ruleset=🎞️ 国内媒体,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMedia/ChinaMedia.list
+# Netflix
+DOMAIN-SUFFIX,netflix.com
+DOMAIN-SUFFIX,nflxvideo.net
+DOMAIN-SUFFIX,nflximg.net
+DOMAIN-SUFFIX,nflxext.com
 
-ruleset=🎯 全球直连,[]GEOSITE,CN
-ruleset=🚀 节点选择,[]GEOSITE,geolocation-!cn
-ruleset=🎯 全球直连,[]GEOIP,CN
-ruleset=🐟 漏网之鱼,[]FINAL
+# Apple
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,itunes.apple.com
+
+# Steam
+DOMAIN-SUFFIX,steampowered.com
+DOMAIN-SUFFIX,steamcommunity.com
+
+# Common overseas services
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,fbcdn.net
+
+# China CDN (direct)
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,taobaocdn.com
+DOMAIN-SUFFIX,bdimg.com
+DOMAIN-SUFFIX,bdstatic.com
+DOMAIN-SUFFIX,zhimg.com
+DOMAIN-SUFFIX,biliimg.com
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,gtimg.com
+DOMAIN-SUFFIX,pstatp.com
